@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+header {
+  height: 100px;
+  /* width: 100%; */
+  background-color: rgb(55, 55, 55);
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.weather-container {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: slategray;
+  color: white;
+}
+
+main .weather-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temperature{
+padding: 20px;
+font-weight: 700;
+font-size: 2rem;
+ 
+}
+
+.input-container input {
+  padding: 7px 24px;
+
+  border-radius: 2px;
+  /* border-style:none; */
+  background-color: rgb(55, 55, 55);
+  color: white;
+}
+
+.input-container button {
+  padding: 7px 24px;
+  border-radius: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+
+.input-container button:hover {
+  background-color: blue;
+  color: white;
+
+
+}
