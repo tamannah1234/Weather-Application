@@ -1,6 +1,6 @@
 let input = document.querySelector("#Input-text");
 let searchBtn = document.querySelector(".search-button");
-const apikey = '19ba6af71caa41e9a32154423241807'; // Replace with your actual API key
+const apikey ='' // Replace with your actual API key
 
 // Add event listener to search button click (assuming you have a search button)
 searchBtn.addEventListener("click", async function () {
